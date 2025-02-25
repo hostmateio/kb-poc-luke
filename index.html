@@ -722,3 +722,138 @@
                 
                 <div class="resource-card">
                     <div class="resource-card-header">Upgrading Bp Clinical to Bp Management</div>
+                    <div class="resource-card-body">
+                        <p class="resource-description">Brief document outlining the options available for legacy clinical-only licenses to upgrade to management.</p>
+                        <div class="resource-meta">PDF Document • Last updated: 11 May 2023</div>
+                        <a href="#" class="resource-button">Download PDF →</a>
+                    </div>
+                </div>
+                
+                <div class="resource-card">
+                    <div class="resource-card-header">Support Database Restore Utility</div>
+                    <div class="resource-card-body">
+                        <p class="resource-description">Utility to restore and repair Bp Premier databases during the conversion process.</p>
+                        <div class="resource-meta">Utility • Version 1.2.5</div>
+                        <a href="#" class="resource-button">Download Utility →</a>
+                    </div>
+                </div>
+                
+                <div class="resource-card">
+                    <div class="resource-card-header">Moving from Management-only to Clinical</div>
+                    <div class="resource-card-body">
+                        <p class="resource-description">Steps for converting a management-only license to both clinical and management modules of Bp Premier.</p>
+                        <div class="resource-meta">Last updated: 11 May 2023</div>
+                        <a href="#" class="resource-button">View Document →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section support-section">
+        <div class="container">
+            <div class="section-header">
+                <h3>Need Help?</h3>
+                <p>Our support team is here to assist you throughout your conversion journey.</p>
+            </div>
+            
+            <div class="support-grid">
+                <div class="support-item">
+                    <div class="support-icon">💬</div>
+                    <h4 class="support-title">Live Chat Support</h4>
+                    <p>Chat with our technical experts for real-time assistance during business hours.</p>
+                    <a href="#" class="resource-button">Start Chat</a>
+                </div>
+                
+                <div class="support-item">
+                    <div class="support-icon">📞</div>
+                    <h4 class="support-title">Phone Support</h4>
+                    <p>Call our dedicated conversion support line at 1800-123-456.</p>
+                    <a href="#" class="resource-button">View Hours</a>
+                </div>
+                
+                <div class="support-item">
+                    <div class="support-icon">❓</div>
+                    <h4 class="support-title">FAQs</h4>
+                    <p>Browse our frequently asked questions about the conversion process.</p>
+                    <a href="#" class="resource-button">View FAQs</a>
+                </div>
+                
+                <div class="support-item">
+                    <div class="support-icon">🎓</div>
+                    <h4 class="support-title">Training</h4>
+                    <p>Schedule a training session for your staff on the new system.</p>
+                    <a href="#" class="resource-button">Book Training</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="/api/placeholder/150/50" alt="Bp Premier Logo" style="filter: brightness(0) invert(1);">
+                    <p>Bp Premier is Australia's leading clinical and practice management software for healthcare professionals.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Training</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Knowledge Base</a></li>
+                        <li><a href="#">Webinars</a></li>
+                        <li><a href="#">User Guides</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Community</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Security</a></li>
+                        <li><a href="#">Compliance</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>© 2023 Bp Premier. All rights reserved. Last updated: 11 May 2023</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple filter functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterButtons = document.querySelectorAll('.filter-button');
+            
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    // Remove active class from all buttons
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    
+                    // Add active class to clicked button
+                    this.classList.add('active');
+                    
+                    // In a real implementation, you would filter the resources here
+                    // For demo purposes, we're just toggling the active state
+                });
+            });
+        });
+    </script>
+</body>
+</html>
